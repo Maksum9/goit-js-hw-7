@@ -5,5 +5,5 @@ categoryItem.forEach((categoryItem) => {
 const categoryTitle = categoryItem.querySelector(`ul > li`).length;
 console.log(`Category: ${categoryTitle}`);
 console.log(`Number of items in this category: ${categoryItemsCount}`);
-})
+});
 
