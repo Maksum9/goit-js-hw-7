@@ -24,8 +24,8 @@ button {
 }
 .gallery {
   display: flex;
+  gap: 50px;
 }
 img {
   width: 300px;
-  gap: 50px;
 }
