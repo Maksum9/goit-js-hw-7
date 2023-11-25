@@ -1,6 +1,6 @@
 const textInput = document.querySelector('#name-input');
-const nameInput = document.querySelector('#mane-output');
-textInput = nameInput.strim();
-if (textInput = '') {
-    nameInput = "Anonymous";
+const nameOutput = document.querySelector('#mane-output');
+const trimmedInput = textInput.trim()
+if (trimmedInput === '') {
+    nameOutput.textContent = "Anonymous";
 }
