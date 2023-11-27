@@ -18,3 +18,4 @@ galleryList.innerHTML = images.map(image => `
   <img src="${image.url}" alt="${image.alt}">
 </li>
 `).join('');
+
