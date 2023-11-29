@@ -3,11 +3,9 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-const clickBtn = document.querySelector('.chage-color');
-addEventListener("click",() => {
-  const bodyNewColor = getRandomHexColor();
-  document.body.style.backgroundColor = bodyNewColor;
-  document.querySelector(".color")
-  textContent = bodyNewColor;
-}
-)
+const clickBtn = document.querySelector(".change-color");
+addEventListener("click", () => {
+const bodyNewColor = getRandomHexColor();
+document.body.style.backgroundColor = bodyNewColor;
+document.querySelector(".color").textContent = bodyNewColor;
+}) 
