@@ -17,6 +17,7 @@ const createBoxes = (amount) => {
     newEl.style.backgroundColor = getRandomHexColor();
     newEl.style.width = `${size}px`;
     newEl.style.height = `${size}px`;
+    newEl.style.margin = `${10}px`;
     box.appendChild(newEl);
     size += 10;
   }
